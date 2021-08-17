@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MentalHealth">
+        <activity android:name=".dashboard"></activity>
         <activity android:name=".home">
             <intent-filter>
-            <category android:name="android.intent.category.LAUNCHER" />
-            <action android:name="android.intent.action.MAIN"/>
-</intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
     </application>
 
