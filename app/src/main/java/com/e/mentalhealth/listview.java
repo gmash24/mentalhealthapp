@@ -35,6 +35,7 @@ public class listview extends AppCompatActivity {
             @Override
             public void onItemClick ( AdapterView<?> parent, View view, int position, long id ) {
                 String value= (String) listView.getItemAtPosition(position);
+                // display the position of the item and its  value
                 Toast.makeText(listview.this, "Position : " + position + "Value : "+ value, Toast.LENGTH_SHORT).show();
 
 
